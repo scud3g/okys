@@ -1,0 +1,10 @@
+{
+  "_说明": "上游接口清单。增删改这里即可，脚本每次运行都会重新抓取。抓取失败的源会被跳过并在 report.txt 里标记，不影响其它源。",
+  "sources": [
+    { "name": "饭太硬", "url": "http://www.xn--sss604efuw.cc/tv/", "note": "你提供的 .cc 入口。实测只返回一张 100x100 占位图；.com 返回 502、.net 与 .top 已停放。抓不到自动跳过" },
+    { "name": "饭太硬镜像", "url": "https://gh-proxy.org/https://raw.githubusercontent.com/qist/tvbox/master/fty.json", "note": "社区同步镜像，spider jar 与 md5 均一致" },
+    { "name": "鱼鱼4K", "url": "https://6800.kstore.vip/fish.json" },
+    { "name": "菜妮丝", "url": "https://tv.xn--yhqu5zs87a.top" },
+    { "name": "盒子迷", "url": "https://xn--i8sz35d1yr.top/%E7%A6%81%E6%AD%A2%E8%B4%A9%E5%8D%96" }
+  ]
+}
